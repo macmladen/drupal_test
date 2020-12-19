@@ -2,13 +2,13 @@
 
 /**
  * @file
- * drupal_test2.features.field_instance.inc
+ * drupal_test.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function drupal_test2_field_default_field_instances() {
+function drupal_test_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-job-body'.

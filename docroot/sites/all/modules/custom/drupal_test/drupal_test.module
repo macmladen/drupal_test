@@ -8,6 +8,8 @@
  * job type.
  */
 
+include_once 'drupal_test.features.inc';
+
 /**
  * Implements hook_form_alter() for node_edit_form().
  */

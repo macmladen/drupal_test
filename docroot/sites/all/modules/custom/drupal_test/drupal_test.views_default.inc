@@ -2,13 +2,13 @@
 
 /**
  * @file
- * drupal_test2.views_default.inc
+ * drupal_test.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function drupal_test2_views_default_views() {
+function drupal_test_views_default_views() {
   $export = array();
 
   $view = new view();

@@ -2,20 +2,20 @@
 
 /**
  * @file
- * drupal_test2.features.inc
+ * drupal_test.features.inc
  */
 
 /**
  * Implements hook_views_api().
  */
-function drupal_test2_views_api($module = NULL, $api = NULL) {
+function drupal_test_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
 
 /**
  * Implements hook_node_info().
  */
-function drupal_test2_node_info() {
+function drupal_test_node_info() {
   $items = array(
     'job' => array(
       'name' => t('Job'),
