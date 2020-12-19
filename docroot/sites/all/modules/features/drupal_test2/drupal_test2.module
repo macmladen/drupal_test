@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the Drupal Test2 feature.
+ */
+
+include_once 'drupal_test2.features.inc';
