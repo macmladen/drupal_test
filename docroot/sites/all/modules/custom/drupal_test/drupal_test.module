@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Drupal test module operating on Job node edit form.
+ *
+ * If the job employment type is freelance, prevent the change to other
+ * job type.
+ */
+
+/**
+ * Implements hook_form_alter() for node_edit_form().
+ */
+function drupal_test_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == "job_node_form") {
+    if ($form['#node']->field_employment_type['und'][0]['value'] == 'freelance') {
+      $form['field_employment_type']['#disabled'] = TRUE;
+    }
+  }
+}

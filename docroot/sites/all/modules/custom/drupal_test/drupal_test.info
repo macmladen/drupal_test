@@ -1,0 +1,4 @@
+name = Drupal Test
+description = Module to prevent freelancers to be full or part timers.
+core = 7.x
+package = Jobiqo custom
